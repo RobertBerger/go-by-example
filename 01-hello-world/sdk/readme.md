@@ -2,6 +2,7 @@
 source <sdk environment script>
 ```
 ```
+mkdir -p ~/projects/dunfell
 GOPATH="~/projects/dunfell"
 ```
 ```
