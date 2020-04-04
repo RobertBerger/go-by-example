@@ -31,3 +31,6 @@ student@e450-tr1:~/projects/dunfell$ tree $GOPATH
 
 8 directories, 6 files
 ```
+```
+cd ${GOPATH}/src/github.com/robertberger/gobyexample/01-hello-world
+```
