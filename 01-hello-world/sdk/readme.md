@@ -34,10 +34,10 @@ student@e450-tr1:~/projects/dunfell$ tree $GOPATH
 ```
 cd ${GOPATH}/src/github.com/robertberger/gobyexample/01-hello-world
 ```
+```
+${TARGET_PREFIX}go build hello-world.go
+```
 depends on arch, but I have some x86 qemu so if it's all statically linked it might work:
 ```
 ${TARGET_PREFIX}go run hello-world.go
-```
-```
-${TARGET_PREFIX}go build hello-world.go
 ```
