@@ -1,5 +1,7 @@
 ```
 source <sdk environment script>
+```
+```
 GOPATH="~/projects/dunfell"
 ```
 ```
