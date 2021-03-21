@@ -67,4 +67,3 @@ depends on arch, but I have some x86 qemu so if it's all statically linked it mi
 ```
 ${TARGET_PREFIX}go run hello-world.go
 ```
-
