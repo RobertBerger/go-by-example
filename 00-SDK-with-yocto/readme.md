@@ -1,6 +1,10 @@
+# Intro
+
 Of course, as usual, I would recommend to use my build framework[1], since this is also what I use to build.
 
 [1] https://rlbl.me/build-fw-tube
+
+# Toolchain in cooker mode
 
 Like this you build a toolchain in cooker mode:
 
@@ -17,6 +21,8 @@ Source the build environment:
 ```
 source /workdir/build/imx6q-phytec-mira-rdk-nand-wic-master/tmp/deploy/images/imx6q-phytec-mira-rdk-nand/environment-setup-armv7at2hf-neon-resy-linux-gnueabi 
 ```
+
+# Go toolchain (stand alone)
 
 Like this you build the go toolchain:
 
