@@ -2,6 +2,22 @@ Of course, as usual, I would recommend to use my build framework[1], since this 
 
 [1] https://rlbl.me/build-fw-tube
 
+Like this you build a toolchain in cooker mode:
+
+```
+bitbake core-image-minimal-base-tig-plus-plus-prebuilt
+```
+
+```
+bitbake meta-ide-support
+bitbake build-sysroots
+```
+
+Source the build environment:
+```
+source /workdir/build/imx6q-phytec-mira-rdk-nand-wic-master/tmp/deploy/images/imx6q-phytec-mira-rdk-nand/environment-setup-armv7at2hf-neon-resy-linux-gnueabi 
+```
+
 Like this you build the go toolchain:
 
 ```
